@@ -6,12 +6,15 @@ const k = 10
 
 console.log(i)
 
-function soma(num1, num2){
-    return num1 + num2
-}
+const soma = (num1, num2) =>  num1 + num2
+
 
 console.log('soma', soma(10,20))
 
 function sub(num1, num2){
     return num1 - num2
+}
+
+function operacao(op, num1, num2){
+    return op(num1,  num2)
 }
