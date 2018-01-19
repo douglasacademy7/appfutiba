@@ -24,9 +24,16 @@ console.log('subtracao', operacao(sub, 100, 50))
 console.log('soma de 2 numeros', operacao(soma, 10, 11))
 
 
-/*mapa em java]
+//mapa em java]
 const obj = {
-    key1= 'valor1'
+    key1: 'valor1'
 }
 
 console.log(obj.key1)
+
+//vetor
+
+const arr = [1, 2, 3]
+console.log(arr[1])
+
+
