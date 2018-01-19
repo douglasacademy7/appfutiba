@@ -35,5 +35,9 @@ console.log(obj.key1)
 
 const arr = [1, 2, 3]
 console.log(arr[1])
-
-
+const print = num => console.log('Num', num)
+const dobro = num => num * 2
+arr.forEach(print)
+arr.map(num => num * 2).forEach(print)
+arr.map(dobro).forEach(print)
+arr.reduce((n1,n2)=>n1+n2,0)
